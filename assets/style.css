@@ -16,42 +16,7 @@ body {
     overflow-x: hidden;
 }
 
-.pokedex-entry {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
+#pokemonSprite{
 
-.pokedex-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.pokedex-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.pokedex-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.spriteArea {
-    height: 48px;
-    width: auto;
-}
-
-img {
-    height: 48px;
-    width: auto;
+    height: 200px;
 }
